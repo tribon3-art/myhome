@@ -1,0 +1,92 @@
+# 네비게이션 링크
+# 페이지 섹션으로 이동하려면 `/#`와 섹션의 `id`를 함께 사용합니다.
+# `weight` 값이 작을수록 먼저 표시됩니다.
+
+main:
+  - name: 홈
+    url: /#top
+    weight: 10
+  - name: 소개
+    url: /#about
+    weight: 20
+  - name: 서비스
+    url: /#services
+    weight: 30
+  - name: 경력
+    url: /#career
+    weight: 40
+  - name: 후기
+    url: /#testimonials
+    weight: 50
+  - name: FAQ
+    url: /#faq
+    weight: 60
+  - name: 문의
+    url: /#contact
+    weight: 70
+
+# 푸터 링크 (4단 레이아웃)
+footer:
+  - name: 서비스
+    weight: 10
+  - parent: 서비스
+    name: 웰니스 컨설팅
+    url: /#services
+    weight: 10
+  - parent: 서비스
+    name: 홈케어 서비스
+    url: /#career
+    weight: 20
+  - parent: 서비스
+    name: 라이프 플래닝
+    url: /#career
+    weight: 30
+  - parent: 서비스
+    name: 상담 신청
+    url: /#contact
+    weight: 40
+
+  - name: 브랜드
+    weight: 20
+  - parent: 브랜드
+    name: 뉴트리라이트
+    url: /#services
+    weight: 10
+  - parent: 브랜드
+    name: 아티스트리
+    url: /#services
+    weight: 20
+  - parent: 브랜드
+    name: 이스프링 & 애트모스피어
+    url: /#services
+    weight: 30
+
+  - name: 정보
+    weight: 30
+  - parent: 정보
+    name: 소개
+    url: /#about
+    weight: 10
+  - parent: 정보
+    name: 경력
+    url: /#career
+    weight: 20
+  - parent: 정보
+    name: 추천사
+    url: /#testimonials
+    weight: 30
+  - parent: 정보
+    name: 자주 묻는 질문
+    url: /#faq
+    weight: 40
+
+  - name: 법적 고지
+    weight: 40
+  - parent: 법적 고지
+    name: 개인정보처리방침
+    url: /privacy/
+    weight: 10
+  - parent: 법적 고지
+    name: 이용약관
+    url: /terms/
+    weight: 20

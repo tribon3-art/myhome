@@ -1,0 +1,19 @@
+schema: hugoblox/author/v1
+slug: me
+is_owner: true
+name:
+  display: 주정숙
+  given: Jeongssook
+  family: Joo
+  pronunciation: Joo Jeongssook
+role: 웰니스 비즈니스 멘토 & 라이프 케어 컨설턴트
+bio: |
+  언행일치의 정직함으로 웰니스 라이프를 제안하는 20년 경력의 네트워크 마케팅 전문가.
+  뉴저지 호손을 기반으로 맞춤형 건강·홈케어 상담을 제공합니다.
+affiliations:
+  - name: 뉴저지 호손 (Hawthorne, NJ)
+    url: ""
+links:
+  - icon: at-symbol
+    url: "#contact"
+    label: 상담 신청
